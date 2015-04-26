@@ -1,11 +1,11 @@
 hw2.define([
     'child_process',
     'fs',
-    'hw2!PATH_JS_LIB:nodejs/git/include.js'
+    'hw2!{PATH_JS_LIB}nodejs/git/include.js'
 ], function Git (child, fs) {
     var $ = this;
 
-    return $.NodeJs.Git = $.class([
+    return $.NodeJs.Git = $.class(
         $.public.static({
             exists: function (path, callback) {
 
@@ -51,5 +51,5 @@ hw2.define([
                 });
             }
         })
-    ]);
+    );
 });
