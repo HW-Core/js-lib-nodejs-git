@@ -2,9 +2,9 @@ console.time('git');
 
 HW2PATH_ROOT="../../../../";
 
-var Hw2Core=require(HW2PATH_ROOT+"kernel");
+var HWCore=require(HW2PATH_ROOT+"kernel");
 
-Hw2Core(function(){
+HWCore(function(){
     var $=this;
     $.Loader.load(["PATH_JS_LIB:nodejs/git/index.js"],function() {
         $.NodeJs.Git.exists(
