@@ -1,12 +1,12 @@
 {
-  "name": "hw2/modules/js/src/library/nodejs/git",
+  "name": "hwcore/modulesjs/src/library/nodejs/git",
   "license": "http://www.hyperweb2.com/terms",
   "dependencies": {
-    "%common": "hw2-core/js-library-common#*"
+    "%common": "hw-core/js-library-common#*"
   },
   "devDependencies": {
-    "%tests": "hw2-core/js-library-nodejs-git#tests",
-    "%doc": "hw2-core/js-library-nodejs-git#gh-pages"
+    "%tests": "hw-core/js-library-nodejs-git#tests",
+    "%doc": "hw-core/js-library-nodejs-git#gh-pages"
   },
   "_comment_keep": "ensure we keep the right git repository configurations",
   "keep": [

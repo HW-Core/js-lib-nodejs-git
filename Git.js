@@ -1,7 +1,7 @@
-hw2.define([
+hwc.define([
     'child_process',
     'fs',
-    'hw2!{PATH_JS_LIB}nodejs/git/include.js'
+    'hwc!{PATH_JS_LIB}nodejs/git/include.js'
 ], function Git (child, fs) {
     var $ = this;
 
