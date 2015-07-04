@@ -1,8 +1,8 @@
 console.time('git');
 
-HW2PATH_ROOT="../../../../";
+HWCPATH_ROOT="../../../../";
 
-var HWCore=require(HW2PATH_ROOT+"kernel");
+var HWCore=require(HWCPATH_ROOT+"kernel");
 
 HWCore(function(){
     var $=this;
