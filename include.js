@@ -6,7 +6,7 @@
 'use strict';
 
 hwc.define([
-    "hwc!{PATH_JS_LIB}nodejs/common/index.js"
+    "hwc!{PATH_JS_LIB}nodejs-common/index.js"
 ],function () {
     var $ = this;
 });
